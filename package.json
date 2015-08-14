@@ -1,0 +1,22 @@
+{
+  "name": "tesselhack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pat310/tesselhack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pat310/tesselhack/issues"
+  },
+  "homepage": "https://github.com/pat310/tesselhack#readme",
+  "dependencies": {
+    "request": "^2.60.0"
+  }
+}
