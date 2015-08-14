@@ -13,3 +13,10 @@ server.on('request', function (req, res) {
         // });
     }
 });
+
+//event listener
+// camera.on('ready', function () {
+//     server.listen(1337, function () {
+//         console.log('Server listening!');
+//     });
+// });
