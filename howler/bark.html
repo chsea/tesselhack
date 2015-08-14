@@ -1,0 +1,22 @@
+<html>
+<head>
+  <script src="howler.min.js"></script>
+  <script>
+  var bark = new Howl({
+      urls: ['bark.wav'],
+      autoplay: true,
+      loop: false,
+      volume: 0.5
+    }).play();
+    console.log('hi kathy');
+
+  function redirect() {
+    window.location = "index.html";
+  }
+
+  </script>
+</head>
+<body onLoad="setTimeout('redirect()', 5000)">
+  <center><img src='growl.gif'></center>
+</body>
+</html>
